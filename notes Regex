@@ -1,0 +1,15 @@
+REGEx
+       //support.sas.com/documentation/cdl/en/lrdict/64316/HTML/default/viewer.htm#a003288497.htm
+  \ backslash for escaping
+  Some METACHARS.  
+
+	.  wildcard 1 char
+        *  1 or more time
+        .* gready wildcard
+        .*?  ungreedy looks for next match after matching once. 
+
+        \s space
+        \d digit
+        \w alpha, numeric, underscore
+       ? can make the character before it optional
+
